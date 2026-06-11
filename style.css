@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+    padding: clamp(0.5rem, 3vw, 1.5rem);
+}
+
+.container {
+    background-color: white;
+    padding: clamp(1rem, 4vw, 2rem);
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: clamp(280px, 85vw, 420px);
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+form button,
+form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
+    height: clamp(2.5rem, 6vw, 3rem);
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: clamp(0.25rem, 2vw, 0.75rem);
+}
+
+.dropdown i {
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+    margin-top: 1.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(4.5rem, 18vw, 6rem);
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+
+.select-container img {
+    max-width: clamp(1.4rem, 4vw, 2rem);
+    flex-shrink: 0;
+}
+
+.select-container select {
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    font-weight: 500;
+}
+
+form button {
+    height: clamp(2.5rem, 6vw, 3rem);
+    background-color: #af4d98;
+    color: white;
+    font-size: clamp(1rem, 3vw, 1.15rem);
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
