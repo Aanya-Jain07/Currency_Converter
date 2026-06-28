@@ -27,5 +27,8 @@ A simple and responsive currency converter web app that gives real-time exchange
 3. Select **To** currency
 4. Click **Get Exchange Rate**
 
+## Preview
+<img width="1217" height="698" alt="Screenshot 2026-06-28 173449" src="https://github.com/user-attachments/assets/c1c39239-2dc3-447f-9b91-579ad57b2ea7" />
+
 ## 👩‍💻 Developer
 Made by [Aanya Jain](https://github.com/Aanya-Jain07)
